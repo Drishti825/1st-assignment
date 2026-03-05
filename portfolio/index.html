@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+</head>
+
+<body>
+
+<h1>My Portfolio</h1>
+
+<h2> Hobbies</h2>
+
+<p>exploring new words and their meanings.</p>
+
+<input type="text" id="hobbyInput" placeholder=" hobby benefit">
+<button onclick="addHobby()">Add</button>
+
+<ol id="hobbyList">
+<li>welcome<button onclick="deleteItem(this)">Delete</button></li>
+<li>welcome home<button onclick="deleteItem(this)">Delete</button></li>
+</ol>
+
+<h2>Contact</h2>
+
+<form onsubmit="showAlert()">
+
+Name:<br>
+<input type="text" required><br><br>
+
+Email:<br>
+<input type="email" required><br><br>
+
+Message:<br>
+<textarea required></textarea><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<footer>
+<p id="dateTime"></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
